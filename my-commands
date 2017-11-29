@@ -1,0 +1,16 @@
+  297  cd git-drill-1
+  298  git init
+  299  touch readme.md index.html style.css
+  300  git remote add origin https://github.com/Borignius/super-guac.git
+  301  git add index.html
+  302  git status
+  303  git commit -m "index.html only"
+  304  git add .
+  305  git reset
+  306  touch app.js
+  307  git add .
+  308  git commit -m "everything is now added/staged."
+  309  git log
+  310  git push -u origin master
+  311  history | tail -n 15 > my-commands
+
